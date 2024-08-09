@@ -28,13 +28,40 @@
       }
       .container {
         background-color: black;
-        height: 500px;
-        width: 500px;
+        height: 748px;
+        width: 748px;
         display: grid;
-        grid-template-columns: ;
+        grid-template-columns: 320px 198px 153px 50px;
+        grid-template-rows: 414px 130px 155px 22px;
+        gap: 9px;
       }
       .item {
         background-color: white;
+      }
+      .red {
+        background-color: red;
+      }
+      .white1 {
+        grid-column: span 3;
+      }
+      .white2 {
+        grid-row: span 2;
+      }
+      .white3 {
+        grid-area: 2/2/4/4;
+      }
+      .blue {
+        background-color: #004592;
+        border-bottom: 10px solid black;
+      }
+      .white4 {
+        grid-row: span 2;
+      }
+      .yellow {
+        background-color: yellow;
+      }
+      .black {
+        background-color: black;
       }
     </style>
   </head>
